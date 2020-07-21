@@ -73,10 +73,8 @@ public class SoundController : MonoBehaviour
         
         if (IdleCheck())
         {
-            Debug.Log("idle");
             playerNotes = "";
         }
-        Debug.Log(playerNotes);
 
     }
     

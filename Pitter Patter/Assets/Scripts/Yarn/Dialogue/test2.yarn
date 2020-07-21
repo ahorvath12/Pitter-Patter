@@ -1,0 +1,15 @@
+title: NPC
+tags: 
+colorID: 0
+position: 834,157
+---
+<<if visited("NPC") is false>>
+	Player: Hey tester.
+	NPC: Hey frog guy.
+	NPC: Looking a nice shade of green today.
+	Player: thanks!
+<<else>>
+	NPC: We've already talked.
+	Player: I know.
+<<endif>>
+===
